@@ -32,7 +32,7 @@ int main() {
     // BURAYA TRUST WALLET'TAN KOPYALADIĞIN RAVEN ADRESİNİ YAPIŞTIR
     std::string myWallet = "BURAYA_RAVEN_ADRESINI_YAPISTIR"; 
 
-    if (myWallet == "BURAYA_RAVEN_ADRESINI_YAPISTIR") {
+    if (myWallet == "RDHEpJNJ7c1W5g2hKYbxB9vbcBoD5fwUhj") {
         std::cout << "HATA: Lütfen önce cüzdan adresini koda ekle!" << std::endl;
     } else {
         connectTo2Miners(myWallet);
